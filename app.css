@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1:nth-of-type(2) {
+  display: none !important; 
+}
+
+/*
+h1 {
+  margin-top:87px !important;
+}
+
+.h-logo {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 11;
+}
+*/
+
+h1:after {
+  content: 'Find A Provider' !important;
+}
+
+.arrow:active {
+  color: #fff;
+  background-color: #1d9585;
+}
+
+.filter-dropdown a {
+  padding-left:10px !important;
+}
+
+.header-container { 
+  display: none;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+.t2-masthead-container {
+  display: none !important;
+}
+
+.live-chat {
+  display: none;
+}
+
+#lhnchatimg {
+  display: none;
+}
+
+.footer-container {
+  display: none;
+}
+
+.back-to-top {
+  display: none;
+}
